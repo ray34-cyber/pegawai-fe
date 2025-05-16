@@ -53,7 +53,7 @@ export const TaskProvider = ({ children }: { children: React.ReactNode }) => {
       setTasks((prev) => prev.filter((task) => task.id !== id));
       Swal.fire({
         title: "Berhasil!",
-        text: "Tugas berhasil dihapus (soft delete).",
+        text: "Tugas berhasil dihapus",
         icon: "success",
         timer: 1500,
         showConfirmButton: false,
