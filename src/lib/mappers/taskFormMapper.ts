@@ -1,4 +1,4 @@
-import { TaskFormState } from "./taskFormReducer";
+import { TaskFormState } from "@/components/TaskForm/taskFormReducer";
 
 export function mapFormToPayload(state: TaskFormState) {
   return {
