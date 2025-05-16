@@ -1,4 +1,4 @@
-import { TaskFormState } from "./taskFormReducer";
+import { TaskFormState } from "@/components/TaskForm/taskFormReducer"
 
 export type TaskFormErrors = Partial<Record<keyof TaskFormState, string>>;
 
