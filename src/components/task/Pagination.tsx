@@ -15,7 +15,7 @@ export default function Pagination({
         <button
           key={page}
           onClick={() => onPageChange(page)}
-          className={`px-3 py-1 rounded ${
+          className={`px-3 py-1 rounded cursor-pointer ${
             page === currentPage
               ? "bg-blue-600 text-white"
               : "bg-gray-200 hover:bg-gray-300"
