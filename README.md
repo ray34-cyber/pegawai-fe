@@ -42,6 +42,7 @@
    ```
 
 2. Install dependencies:
+   ```bash
    npm install
 
    # atau
@@ -49,10 +50,15 @@
    yarn install
 
 3. Konfigurasi environment
-   Buat file .env.local di root folder dan tambahkan konfigurasi backend API URL, misalnya:
-   NEXT_PUBLIC_API_URL=${process.env.NEXT_PUBLIC_API_URL}
+
+      Buat file .env.local di root folder dan tambahkan konfigurasi backend API URL, misalnya:
+
+   ```env
+   NEXT_PUBLIC_API_URL=
 
 4. Jalankan development server:
+
+   ```bash
    npm run dev
 
    # atau
@@ -60,6 +66,8 @@
    yarn dev
 
 5. Buka browser dan akses:
+
+   ```bash
    http://localhost:3000
 
 ## 4. Tantangan & Solusi
