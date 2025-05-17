@@ -94,4 +94,4 @@
 
 - Membuat service layer (taskService.ts, employeeService.ts, employeeTaskService.ts ) yang bertugas komunikasi dengan backend agar kode lebih terstruktur.
 
-- Menggunakan CSS modular dan utility classes untuk membuat UI yang responsif dan konsisten.
+- Menggunakan Tailwind CSS untuk membuat UI yang responsif dan konsisten.
