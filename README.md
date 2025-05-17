@@ -5,7 +5,7 @@
 ### Alur Data Frontend
 
 - Frontend menggunakan Next.js (App Router) sebagai framework React modern dengan rendering Server dan Client Components.
-- API dipanggil dengan `fetch` atau `axios` ke backend Laravel yang menyediakan data task, employee, dan remunerasi.
+- API dipanggil dengan `axios` ke backend Laravel yang menyediakan data task, employee, dan remunerasi.
 - State management menggunakan React Context untuk manajemen state global tugas dan employee.
 - Komponen UI modular dan reusable, dipisah antara komponen presentasi (UI) dan container (logic).
 - Routing menggunakan folder-based routing bawaan Next.js.
@@ -18,7 +18,7 @@
 - **React Context & Hooks** untuk state management agar mudah di-maintain dan menghindari prop drilling.
 - **Modular folder structure** memisahkan components, context, hooks, utils, dan types agar kode lebih bersih dan scalable.
 - **UI components** dipisah agar bisa digunakan ulang di berbagai halaman (misal Button, Input, Textarea).
-- **Responsive design** menggunakan CSS modular agar UI optimal di berbagai perangkat (mobile, tablet, desktop).
+- **Responsive design** menggunakan Tailwind CSS agar UI optimal di berbagai perangkat (mobile, tablet, desktop).
 - Form validasi dan error handling untuk memastikan data input user valid sebelum dikirim ke backend.
 - Interaksi dengan backend mengutamakan async/await dan error handling agar UX lebih mulus.
 
@@ -28,7 +28,7 @@
 
 ### Prasyarat
 
-- Node.js >= 16.x
+- Node.js = v20.15.0
 - npm atau yarn
 
 ### Instalasi
@@ -84,6 +84,6 @@
 
 - Membuat validasi form dengan custom hooks dan reducer untuk pengelolaan error state yang terpusat.
 
-- Membuat service layer (taskService.ts) yang bertugas komunikasi dengan backend agar kode lebih terstruktur.
+- Membuat service layer (taskService.ts, employeeService.ts, employeeTaskService.ts ) yang bertugas komunikasi dengan backend agar kode lebih terstruktur.
 
 - Menggunakan CSS modular dan utility classes untuk membuat UI yang responsif dan konsisten.
